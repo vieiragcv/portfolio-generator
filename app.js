@@ -12,3 +12,9 @@ fs.writeFile('index.html', generatePage(name1, github), err => {
 
   console.log('Portfolio complete! Check out index.html to see the output!');
 });
+
+const square = (x) => {
+  return x * x; 
+}
+
+console.log(square(10));
